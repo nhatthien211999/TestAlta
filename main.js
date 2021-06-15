@@ -61,7 +61,7 @@ const btnLogin_click = () => {
         pass: document.getElementById("pass").value
     } 
 
-    if(checkEmail(user) === true){
+    if(checklogin(user) === true){
         console.log('login');
     }
 }
